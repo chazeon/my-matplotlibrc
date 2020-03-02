@@ -6,6 +6,13 @@ My default preferences for Matplotlib
 
 Copy the `matplotlibrc` to the following directories. And check with
 
+```
+python3 -c "import matplotlib; print(matplotlib.matplotlib_fname())"
+```
+
+or in Python
+
+
 ```python
 mport matplotlib
 matplotlib.matplotlib_fname()
