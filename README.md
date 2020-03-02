@@ -1,4 +1,4 @@
-# My Matplotlibrc
+# My `matplotlibrc`
 
 My default preferences for Matplotlib
 
