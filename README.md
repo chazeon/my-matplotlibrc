@@ -6,7 +6,7 @@ My default preferences for Matplotlib
 
 Copy the `matplotlibrc` to the following directories. And check with
 
-```
+```bash
 python3 -c "import matplotlib; print(matplotlib.matplotlib_fname())"
 ```
 
@@ -14,7 +14,7 @@ or in Python
 
 
 ```python
-mport matplotlib
+import matplotlib
 matplotlib.matplotlib_fname()
 ```
 
