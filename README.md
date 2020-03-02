@@ -4,7 +4,14 @@ My default preferences for Matplotlib
 
 ## Usage
 
-Copy the `matplotlibrc` to the following directories.
+Copy the `matplotlibrc` to the following directories. And check with
+
+```python
+mport matplotlib
+matplotlib.matplotlib_fname()
+```
+
+Result should point to the absolute path to your custom `matplotlibrc`.
 
 ### Unix/Linux:
 
